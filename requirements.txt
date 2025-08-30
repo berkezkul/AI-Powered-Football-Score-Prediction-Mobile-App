@@ -1,2 +1,2 @@
-fastapi==0.104.1
-mangum==0.17.0
+# Minimal requirements for Vercel serverless
+# Using built-in Python HTTP server - no external dependencies needed
