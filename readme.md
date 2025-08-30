@@ -427,14 +427,5 @@ LayoutBuilder(
 ---
 ---
 
-## 📊 Proje İstatistikleri
-
-- **📝 Lines of Code**: ~2,500+ (Python + Dart)
-- **🗂️ Files**: 25+ source files
-- **📊 Data Points**: 5,000+ historical matches
-- **⚡ Features**: 15+ AI features
-- **🎯 Accuracy**: 87%+ prediction accuracy
-- **📱 Platforms**: Android, iOS ready
-
 **⭐ Bu projeyi beğendiyseniz GitHub'da star vermeyi unutmayın!**
 
