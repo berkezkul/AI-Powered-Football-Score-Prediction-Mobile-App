@@ -366,29 +366,6 @@ LayoutBuilder(
   },
 )
 ```
-
----
-
-## 🚀 Gelecek Geliştirmeler
-
-### Kısa Vadeli (2-4 hafta)
-- [ ] **Player Statistics Integration**: Oyuncu yaralanmaları ve form
-- [ ] **Live Match Data**: Gerçek zamanlı maç verileri
-- [ ] **Push Notifications**: Maç hatırlatmaları
-- [ ] **Match History**: Geçmiş tahmin doğruluğu
-
-### Orta Vadeli (1-3 ay)
-- [ ] **Deep Learning Models**: LSTM/RNN ile zaman serisi analizi
-- [ ] **Cloud Deployment**: AWS/Firebase backend
-- [ ] **User Authentication**: Kişisel tahmin geçmişi
-- [ ] **Social Features**: Tahmin paylaşımı
-
-### Uzun Vadeli (3-6 ay)
-- [ ] **Multi-League Support**: Premier League dışında ligler
-- [ ] **Real-time Odds Integration**: Bahis oranları karşılaştırması
-- [ ] **Advanced Analytics Dashboard**: Detaylı performans metrikleri
-- [ ] **API Monetization**: Premium subscription model
-
 ---
 
 ## 🏆 Başarı Metrikleri
