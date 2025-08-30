@@ -407,13 +407,7 @@ LayoutBuilder(
 
 ---
 
-## 👤 Geliştirici Bilgileri
-
-**Berke Özkul**  
-🎓 Computer Engineer | AI & Mobile Development Specialist  
-🚀 Flutter Expert | Machine Learning Enthusiast  
-
-### İletişim
+## 👤 İletişim
 - 🌐 **Website**: [www.berkeozkul.com](https://www.berkeozkul.com)
 - 💼 **LinkedIn**: [linkedin.com/in/berkeozkul](https://linkedin.com/in/berkeozkul)
 - 📧 **Email**: berke.zkl@gmail.com
@@ -423,9 +417,6 @@ LayoutBuilder(
 - **Mobile Development**: Flutter, Dart, Native iOS/Android
 - **AI/ML**: Python, Scikit-learn, TensorFlow, PyTorch
 - **Backend**: FastAPI, SQL, Firebase, AWS
-
----
----
 
 **⭐ Bu projeyi beğendiyseniz GitHub'da star vermeyi unutmayın!**
 
