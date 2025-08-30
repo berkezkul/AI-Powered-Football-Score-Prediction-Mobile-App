@@ -52,16 +52,47 @@ class ApiService {
     return dio;
   }
 
-  /// Platform'a göre base URL seç
+  /// Smart URL selection with fallback mechanism
   String get baseUrl {
-    // Android emulator için her zaman 10.0.2.2 kullan
     if (Platform.isAndroid) {
-      return AppConstants.baseUrlAndroid; // 10.0.2.2 Android emulator için
+      // Android: Try multiple URLs until one works
+      return AppConstants.baseUrl; // Environment-based URL
     } else if (Platform.isIOS) {
-      return AppConstants.baseUrlIOS; // localhost iOS simulator için
+      return AppConstants.baseUrlIOS;
     }
-    // Diğer platformlar için localhost
-    return AppConstants.baseUrlIOS;
+    return AppConstants.baseUrl;
+  }
+  
+  /// Try multiple API endpoints until one works
+  Future<String> _findWorkingApiUrl() async {
+    final List<String> urlsToTry = [
+      AppConstants.baseUrl, // Environment-based
+      AppConstants.baseUrlAndroid, // Emulator
+      AppConstants.baseUrlIOS, // iOS
+    ];
+    
+    for (String url in urlsToTry) {
+      try {
+        print('🔍 Trying API URL: $url');
+        final testDio = Dio(BaseOptions(
+          baseUrl: url,
+          connectTimeout: Duration(seconds: 3),
+          receiveTimeout: Duration(seconds: 3),
+        ));
+        
+        final response = await testDio.get('/health');
+        if (response.statusCode == 200) {
+          print('✅ Working API found: $url');
+          return url;
+        }
+      } catch (e) {
+        print('❌ Failed: $url - $e');
+        continue;
+      }
+    }
+    
+    print('🚨 No working API found, using mock data');
+    throw Exception('No API endpoint available');
   }
 
   /// API sağlık kontrolü

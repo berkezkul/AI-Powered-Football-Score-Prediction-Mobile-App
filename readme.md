@@ -180,9 +180,34 @@ flutter pub get
 # 3. Model dosyalarını oluşturun
 flutter packages pub run build_runner build
 
-# 4. Uygulamayı çalıştırın
+# 4. API konfigürasyonunu ayarlayın
+# lib/constants/app_constants.dart dosyasında:
+# _developmentBaseUrl'i kendi IP adresinizle güncelleyin
+
+# 5. Uygulamayı çalıştırın
 flutter run
 ```
+
+#### **IP Adresi Ayarlama (Development)**
+
+1. **IP adresinizi bulun:**
+```bash
+# Windows
+ipconfig
+
+# macOS/Linux  
+ifconfig
+```
+
+2. **app_constants.dart'ı güncelleyin:**
+```dart
+static const String _developmentBaseUrl = 'http://YOUR_IP:8000';
+```
+
+3. **Test edilecek platformlar:**
+- **Android Emulator**: `10.0.2.2:8000` otomatik kullanılır
+- **iOS Simulator**: `localhost:8000` otomatik kullanılır  
+- **Fiziksel Cihaz**: Belirlediğiniz IP adresi kullanılır
 
 ### 5️⃣ Android Emulator Kurulumu (Opsiyonel)
 

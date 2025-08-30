@@ -2,15 +2,20 @@
 class AppConstants {
   AppConstants._();
 
-  // API konfigürasyonu - Debug için değiştirildi
-  static const String baseUrl = 'http://localhost:8000'; // Debug için localhost
+  // API konfigürasyonu - Environment based
+  static const String _developmentBaseUrl = 'http://192.168.1.12:8000'; // Development IP
+  static const String _productionBaseUrl = 'https://football-prediction-api.vercel.app'; // Vercel production URL - Deploy sonrası güncellenecek
   static const String baseUrlAndroid = 'http://10.0.2.2:8000'; // Android emulator için
   static const String baseUrlIOS = 'http://localhost:8000'; // iOS simulator için
   
+  // Environment detection
+  static const bool _isProduction = bool.fromEnvironment('dart.vm.product');
+  static String get baseUrl => _isProduction ? _productionBaseUrl : _developmentBaseUrl;
+  
   // API endpoints
-  static const String predictEndpoint = '/predict';
-  static const String teamsEndpoint = '/teams';
-  static const String healthEndpoint = '/health';
+  static const String predictEndpoint = '/api/predict';
+  static const String teamsEndpoint = '/api/teams';
+  static const String healthEndpoint = '/api/health';
   
   // Uygulama metinleri
   static const String appName = 'Premier League Predictor';
