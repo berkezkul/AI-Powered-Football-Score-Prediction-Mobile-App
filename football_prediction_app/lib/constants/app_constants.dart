@@ -13,9 +13,9 @@ class AppConstants {
   static String get baseUrl => _isProduction ? _productionBaseUrl : _developmentBaseUrl;
   
   // API endpoints
-  static const String predictEndpoint = '/api/predict';
-  static const String teamsEndpoint = '/api/teams';
-  static const String healthEndpoint = '/api/health';
+  static const String predictEndpoint = '/predict';
+  static const String teamsEndpoint = '/teams';
+  static const String healthEndpoint = '/health';
   
   // Uygulama metinleri
   static const String appName = 'Premier League Predictor';

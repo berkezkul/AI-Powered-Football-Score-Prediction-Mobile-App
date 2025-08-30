@@ -1,2 +1,2 @@
-# Minimal requirements for Vercel serverless
-# Using built-in Python HTTP server - no external dependencies needed
+fastapi==0.104.1
+pydantic==2.5.0
