@@ -416,28 +416,15 @@ LayoutBuilder(
 ### İletişim
 - 🌐 **Website**: [www.berkeozkul.com](https://www.berkeozkul.com)
 - 💼 **LinkedIn**: [linkedin.com/in/berkeozkul](https://linkedin.com/in/berkeozkul)
-- 📧 **Email**: berke@berkeozkul.com
-- 🐱 **GitHub**: [github.com/berkeozkul](https://github.com/berkeozkul)
+- 📧 **Email**: berke.zkl@gmail.com
+- 🐱 **GitHub**: [github.com/berkezkul](https://github.com/berkezkul)
 
 ### Teknik Uzmanlık Alanları
 - **Mobile Development**: Flutter, Dart, Native iOS/Android
 - **AI/ML**: Python, Scikit-learn, TensorFlow, PyTorch
-- **Backend**: FastAPI, Node.js, Firebase, AWS
-- **Frontend**: React, Vue.js, Progressive Web Apps
+- **Backend**: FastAPI, SQL, Firebase, AWS
 
 ---
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakınız.
-
-## 🙏 Teşekkürler
-
-- **Football-Data.co.uk**: Kaliteli tarihsel veriler için
-- **Flutter Team**: Mükemmel framework için  
-- **FastAPI Community**: Modern web framework için
-- **Scikit-learn Contributors**: Güçlü ML kütüphanesi için
-
 ---
 
 ## 📊 Proje İstatistikleri
