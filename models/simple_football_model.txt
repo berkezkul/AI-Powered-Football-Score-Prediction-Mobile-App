@@ -1,0 +1,126 @@
+# Simple Football Prediction Model
+home_advantage=0.13710526315789473
+form_weight=0.3
+
+# Team Strengths
+strength,West Ham,1.2463054187192117
+strength,Wigan,1.0481927710843373
+strength,Tottenham,1.697459584295612
+strength,Fulham,1.1476510067114094
+strength,Arsenal,1.8782816229116945
+strength,Swansea,1.1477832512315271
+strength,Aston Villa,1.1976401179941003
+strength,Crystal Palace,1.171270718232044
+strength,Stoke,1.1958762886597938
+strength,Blackpool,1.1875
+strength,Reading,1.1348314606741574
+strength,Blackburn,1.257918552036199
+strength,Leicester,1.361842105263158
+strength,Bolton,1.188073394495413
+strength,Birmingham,1.0158730158730158
+strength,Wolves,0.9821428571428571
+strength,Newcastle,1.1946666666666668
+strength,Cardiff,0.9206349206349206
+strength,Man City,1.8584686774941996
+strength,Chelsea,2.075980392156863
+strength,Southampton,1.2383177570093458
+strength,Brighton,0.9855072463768116
+strength,Bournemouth,1.175
+strength,Portsmouth,1.1824324324324325
+strength,QPR,0.8064516129032258
+strength,Hull,0.95
+strength,Sunderland,0.984375
+strength,Man United,2.112941176470588
+strength,West Brom,1.1368078175895766
+strength,Watford,1.0974025974025974
+strength,Everton,1.5170731707317073
+strength,Liverpool,1.92018779342723
+strength,Huddersfield,0.6
+strength,Middlesbrough,1.0377358490566038
+strength,Burnley,0.993421052631579
+strength,Charlton,1.0655737704918034
+strength,Norwich,1.0793650793650793
+strength,Derby,0.2903225806451613
+strength,Sheffield United,0.8387096774193549
+
+# Team Attack
+attack,West Ham,1.2733990147783252
+attack,Wigan,1.0120481927710843
+attack,Tottenham,1.581986143187067
+attack,Fulham,1.1275167785234899
+attack,Arsenal,1.918854415274463
+attack,Swansea,1.1280788177339902
+attack,Aston Villa,1.1504424778761062
+attack,Crystal Palace,1.1878453038674033
+attack,Stoke,1.0274914089347078
+attack,Blackpool,1.5
+attack,Reading,1.2247191011235956
+attack,Blackburn,1.239819004524887
+attack,Leicester,1.4078947368421053
+attack,Bolton,1.1972477064220184
+attack,Birmingham,0.9603174603174603
+attack,Wolves,1.0892857142857142
+attack,Newcastle,1.1866666666666668
+attack,Cardiff,0.8888888888888888
+attack,Man City,1.8839907192575407
+attack,Chelsea,1.9068627450980393
+attack,Southampton,1.2850467289719627
+attack,Brighton,0.927536231884058
+attack,Bournemouth,1.2833333333333334
+attack,Portsmouth,1.0945945945945945
+attack,QPR,1.043010752688172
+attack,Hull,0.9375
+attack,Sunderland,1.025
+attack,Man United,1.9223529411764706
+attack,West Brom,1.1433224755700326
+attack,Watford,1.0649350649350648
+attack,Everton,1.397560975609756
+attack,Liverpool,1.835680751173709
+attack,Huddersfield,0.5833333333333334
+attack,Middlesbrough,1.0628930817610063
+attack,Burnley,0.9407894736842105
+attack,Charlton,0.9836065573770492
+attack,Norwich,1.0873015873015872
+attack,Derby,0.5806451612903226
+attack,Sheffield United,0.7419354838709677
+
+# Team Defense
+defense,West Ham,1.4901477832512315
+defense,Wigan,1.5783132530120483
+defense,Tottenham,1.166281755196305
+defense,Fulham,1.5067114093959733
+defense,Arsenal,1.097852028639618
+defense,Swansea,1.477832512315271
+defense,Aston Villa,1.4572271386430677
+defense,Crystal Palace,1.441988950276243
+defense,Stoke,1.3814432989690721
+defense,Blackpool,1.9375
+defense,Reading,1.5056179775280898
+defense,Blackburn,1.4751131221719458
+defense,Leicester,1.4276315789473684
+defense,Bolton,1.5045871559633028
+defense,Birmingham,1.4682539682539681
+defense,Wolves,1.8035714285714286
+defense,Newcastle,1.4906666666666666
+defense,Cardiff,1.7777777777777777
+defense,Man City,1.0324825986078887
+defense,Chelsea,0.8970588235294118
+defense,Southampton,1.3504672897196262
+defense,Brighton,1.536231884057971
+defense,Bournemouth,1.7083333333333333
+defense,Portsmouth,1.3175675675675675
+defense,QPR,1.7849462365591398
+defense,Hull,1.6125
+defense,Sunderland,1.534375
+defense,Man United,0.8941176470588236
+defense,West Brom,1.49185667752443
+defense,Watford,1.577922077922078
+defense,Everton,1.1609756097560975
+defense,Liverpool,0.9694835680751174
+defense,Huddersfield,1.8166666666666667
+defense,Middlesbrough,1.421383647798742
+defense,Burnley,1.5526315789473684
+defense,Charlton,1.5081967213114753
+defense,Norwich,1.5793650793650793
+defense,Derby,2.4516129032258065
+defense,Sheffield United,1.4838709677419355
