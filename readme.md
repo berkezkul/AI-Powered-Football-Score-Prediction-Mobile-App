@@ -18,7 +18,7 @@ Bu proje, Premier League tarihsel verilerini (2005-2018 sezonları) kullanarak g
 - **Detailed Analytics**: Head-to-head, takım formu, gol istatistikleri
 - **Cross-platform**: Android/iOS emulator desteği
 
-### 📱 Premium Mobile App
+### 📱 Mobile App
 - **Flutter**: Native performance, modern UI/UX
 - **Responsive Design**: Tüm ekran boyutlarında optimal görünüm
 - **Premier League Theme**: Profesyonel tasarım
